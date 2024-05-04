@@ -1,0 +1,91 @@
+body{
+  background: url(9.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;}
+@font-face{
+  font-family:m1;
+  src:url('Madjoe.ttf');}
+@font-face{
+  font-family:code;
+  src:url('CODE Bold.otf');}
+@font-face{
+  font-family:got;
+  src:url('GothamMedium.ttf');}
+::placeholder{
+  color: white;}
+.h1{
+  text-align: center;
+  color :white;
+  font-family: m1;
+  font-size: 60px;
+  text-shadow: 0px 0px 10px black;}
+.h6{
+  text-align: center;}
+.mymy{
+  margin-left: 79px;
+  width: 160px;
+  padding: 5px 15px 5px 10px;
+  height: 30px;
+  font-size: 16px;
+  border: 1px solid white;
+  display: center;
+  font-family: got;
+  background: transparent;
+  color: white;
+  border-radius: 5px;}
+.start{
+  font-size: 18px;
+  background: blue;
+  color:white;
+  padding: 5px 15px 5px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 88px;
+  font-family:got;
+  width: 75px;
+  height: 35px;}
+.stop{
+  font-size: 18px;
+  background: red;
+  color:white;
+  padding: 5px 15px 5px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 15px;
+  font-family: got;
+  width: 75px;
+  height: 35px;}
+.h3{
+  text-align: center;
+  margin-top:50px;
+  color:white;}
+.start:hover{
+  background:#0A0856;
+  color:#FFFFFF;
+  animation-name: arthur;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;}
+.stop:hover{
+  background:black;
+  color:#FFFFFF;
+  animation-name: oxic;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;}
+@keyframes arthur{
+  0%  {
+    box-shadow: 0px 0px 1px 2px white;}
+  50%{
+    box-shadow: 0px 0px 1px 2px blue;}
+  100%{
+    box-shadow: 0px 0px 1px 2px green;}}
+@keyframes oxic{
+  0%  {
+    box-shadow: 0px 0px 1px 2px red;}
+  50%{
+    box-shadow: 0px 0px 1px 2px darkred;}
+  100%{
+    box-shadow: 0px 0px 1px 2px orangered;}}
